@@ -1,0 +1,30 @@
+/* Centraliza o título e adiciona espaçamento */
+header h1 {
+    text-align: center; /* Centraliza o texto */
+    color: #333; /* Cor do texto */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.5rem; /* Tamanho do texto */
+    font-family: Arial, sans-serif;
+}
+
+/* Ajusta o espaçamento das legendas do carrossel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semitransparente */
+    border-radius: 5px; /* Cantos arredondados */
+    padding: 10px;
+    bottom: 30px; /* Ajusta a posição vertical da legenda */
+}
+
+/* Estiliza os botões de navegação do carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo para os ícones de navegação */
+    border-radius: 50%; /* Botões arredondados */
+}
+
+/* Estilo para os itens do carrossel */
+.carousel-item img {
+    object-fit: cover; /* Faz com que as imagens cubram o container */
+    height: 500px; /* Ajusta a altura das imagens */
+}
